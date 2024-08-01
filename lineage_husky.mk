@@ -19,6 +19,18 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8 Pro
 PRODUCT_NAME := lineage_husky
 
+# Xtras
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+WITH_GMS := true
+TARGET_IS_PIXEL_8 := true
+TARGET_IS_PIXEL := true
+TARGET_BUILD_PACKAGE :=  3
+
+#AlphaDroid
+ALPHA_BUILD_TYPE := official
+ALPHA_MAINTAINER := OscarM
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2992
 TARGET_SCREEN_WIDTH := 1344
